@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints (if you have large files)
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Data files (if large)
+*.csv
+*.json
+*.txt
+data/
+
+# Logs
+logs/
+*.log
