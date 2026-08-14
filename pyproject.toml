@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mistral-text2sql"
+version = "0.1.0"
+description = "Text-to-SQL pipeline with schema formatting, QLoRA training, and SQLite execution evaluation."
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "Proprietary"}
+keywords = ["text-to-sql", "mistral", "spider", "qlora", "sqlite"]
+authors = [{name = "Copilot"}]
+
+[tool.setuptools]
+packages = ["text2sql"]
